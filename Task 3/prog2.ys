@@ -1,0 +1,14 @@
+.pos 0x00
+loop:
+        mrmovl (%edx), %eax
+        irmovl $1, %esi
+        addl %esi, %ecx
+entry:
+        irmovl $4, %esi
+        addl %esi, %edx
+        andl %eax, %eax
+        jne loop
+        rrmovl %ebp, %esp
+        rrmovl %ecx, %eax
+        popl %ebp
+        ret

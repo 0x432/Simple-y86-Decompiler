@@ -1,0 +1,17 @@
+nop
+ret
+addl %esi, %eax
+andl %ebx, %edi
+subl %ecx, %ebp
+xorl %ebx, %edx
+rrmovl %esp, %ebx
+cmovle %esp, %ebx
+cmove %ebx, %esp
+cmovl %esp, %ecx
+cmovne %ebp, %ebx
+cmovg %esp, %edx
+cmovge %esp, %eax
+pushl %edx
+pushl %eax
+popl %ebp
+halt

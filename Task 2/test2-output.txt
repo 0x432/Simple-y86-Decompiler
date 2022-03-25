@@ -1,0 +1,13 @@
+irmovl $43981, %edx
+mrmovl -12(%ebp), %ecx
+rmmovl %esi, 1052(%esp)
+jne 49239
+je 20596
+call 58
+jmp 116
+irmovl $-1, %ebx
+jge 41072
+jl 116
+jle 128
+jg 40976
+halt

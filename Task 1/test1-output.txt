@@ -1,0 +1,17 @@
+nop
+ret
+addl
+andl
+subl
+xorl
+rrmovl
+cmovle
+cmove
+cmovl
+cmovne
+cmovg
+cmovge
+pushl
+pushl
+popl
+halt
